@@ -23,7 +23,7 @@ spec:
                 name: mealie
             - secretRef:
                 name: mealie
-          image: ghcr.io/mealie-recipes/mealie:v1.11.0 # {"$imagepolicy": "flux-system:mealie"}
+          image: ghcr.io/mealie-recipes/mealie:v2.4.2 # {"$imagepolicy": "flux-system:mealie"}
           livenessProbe:
             failureThreshold: 6
             httpGet:
